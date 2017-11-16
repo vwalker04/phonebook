@@ -65,7 +65,7 @@ def contact_list
         @phonebook[@full_name] = new_number
         puts "______________________________\n*****#{@full_name} Updated!*****\n______________________________"
       else
-        puts "Invalid entry."
+        puts "Invalid entry. Please try again."
       end
     else
       puts "Sorry. Contact does not exist."
