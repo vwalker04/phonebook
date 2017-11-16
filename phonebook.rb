@@ -62,8 +62,8 @@ def contact_list
       elsif choice == '2'
         puts "Enter NEW 10 digit number"
         new_number = gets.chomp
-        @phonebook[name_searched] = new_number
-        puts "______________________________\n*****#{new_searched} Updated!*****\n______________________________"
+        @phonebook[@full_name] = new_number
+        puts "______________________________\n*****#{@full_name} Updated!*****\n______________________________"
       else
         puts "Invalid entry."
       end
